@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: pink;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+  color: white;
+}
+
+header {
+  background-color: rgb(51, 151, 151);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header img {
+  width: 80px;
+  border: 2px solid red;
+}
+header li {
+  display: inline-block;
+  padding: 0.5rem;
+}
+header li a {
+  text-decoration: none;
+  color: white;
+}
+header li a:hover {
+  color: red;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  line-height: 2rem;
+  background-color: hotpink;
+}
+.banner aside button {
+  background-color: rgb(126, 52, 52);
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+.banner aside button:hover {
+  background-color: rgb(194, 89, 89);
+  cursor: pointer;
+  transform: scale(0.97);
+}
+.banner img {
+  width: 30%;
+  max-width: 400px;
+  min-width: 200px;
+}
+
+.cards {
+  display: flex;
+  color: black;
+  gap: 1rem;
+  padding: 1rem;
+}
+.cards .card1 {
+  background-color: blue;
+  width: 25%;
+  height: 15rem;
+  border-radius: 1rem;
+  color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards .card2 {
+  background-color: red;
+  width: 25%;
+  height: 15rem;
+  border-radius: 1rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards .card3 {
+  background-color: purple;
+  width: 25%;
+  height: 15rem;
+  border-radius: 1rem;
+  color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards .card4 {
+  background-color: green;
+  width: 25%;
+  height: 15rem;
+  border-radius: 1rem;
+  color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex, .articles .article1, .articles .article2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.articles {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+.articles .article1, .articles .article2 {
+  background-color: gray;
+  width: 50%;
+  height: 10rem;
+  border-radius: 10px;
+  border: 2px solid red;
+}
+.articles .article2 {
+  background-color: blueviolet;
+}
+
+footer p {
+  background-color: fuchsia;
+}
+footer .social-icons {
+  display: flex;
+  height: 10rem;
+}
+footer .social-icons .social1 {
+  width: 20%;
+  background-color: #175a1f;
+  font-size: 2rem;
+  color: blue;
+}
+footer .social-icons .social2 {
+  width: 20%;
+  background-color: #124518;
+  font-size: 4rem;
+  color: red;
+}
+footer .social-icons .social3 {
+  width: 20%;
+  background-color: #0c3111;
+  font-size: 6rem;
+  color: green;
+}
+footer .social-icons .social4 {
+  width: 20%;
+  background-color: #071d0a;
+  font-size: 8rem;
+  color: purple;
+}
+footer .social-icons .social5 {
+  width: 20%;
+  background-color: #020803;
+  font-size: 10rem;
+  color: whitesmoke;
+}/*# sourceMappingURL=style.css.map */
